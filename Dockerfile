@@ -13,7 +13,7 @@ LABEL name="authkeys/nginx-spa" \
         org.opencontainers.image.source="https://github.com/authkeys/nginx-spa" \
         org.opencontainers.image.title="nginx-spa" \
         org.opencontainers.image.description="Nginx for Single Page Application" \
-        org.opencontainers.image.version="0.1.0" \
+        org.opencontainers.image.version="0.2.0" \
         org.opencontainers.image.documentation="https://github.com/authkeys/nginx-spa" \
         org.opencontainers.image.licenses='Apache-2.0'
 
