@@ -1,4 +1,4 @@
-FROM nginx:alpine
+FROM nginx:1.27.3-alpine3.20
 RUN sed -i 's/^user .*/#user nginx;/; s/^pid .*/pid  \/var\/run\/nginx\/nginx.pid;/' /etc/nginx/nginx.conf \
     && mkdir /var/run/nginx \
     && chown nginx /var/cache/nginx /var/log/nginx /var/run/nginx
@@ -13,7 +13,5 @@ LABEL name="authkeys/nginx-spa" \
         org.opencontainers.image.source="https://github.com/authkeys/nginx-spa" \
         org.opencontainers.image.title="nginx-spa" \
         org.opencontainers.image.description="Nginx for Single Page Application" \
-        org.opencontainers.image.version="0.2.0" \
         org.opencontainers.image.documentation="https://github.com/authkeys/nginx-spa" \
         org.opencontainers.image.licenses='Apache-2.0'
-
