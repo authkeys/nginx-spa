@@ -26,3 +26,16 @@ Using it:
 
 `docker run -p 8080:8080 -v $PWD/dist:/app authkeys/nginx-spa`
 
+### Integration tests
+
+With Docker, Bash and curl available, run the checks:
+
+```sh
+docker build --tag nginx-spa:test .
+bash tests/run.sh nginx-spa:test
+```
+
+The runner mounts `tests/fixtures` read-only at `/app`, publishes port 8080 on a
+dynamic localhost port, and removes the container when it exits. It checks SPA
+fallback, missing assets, response bodies, MIME types, cache headers and gzip.
+Failures print response details and container logs.

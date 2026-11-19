@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480">
+    <rect x="0" y="0" width="640" height="480" fill="white"/>
+    <circle cx="40" cy="40" r="20" fill="blue"/>
+    <circle cx="100" cy="40" r="20" fill="green"/>
+    <circle cx="160" cy="40" r="20" fill="red"/>
+    <circle cx="220" cy="40" r="20" fill="blue"/>
+    <circle cx="280" cy="40" r="20" fill="green"/>
+    <circle cx="340" cy="40" r="20" fill="red"/>
+    <circle cx="400" cy="40" r="20" fill="blue"/>
+    <circle cx="460" cy="40" r="20" fill="green"/>
+    <circle cx="520" cy="40" r="20" fill="red"/>
+    <circle cx="580" cy="40" r="20" fill="blue"/>
+    <circle cx="40" cy="100" r="20" fill="green"/>
+    <circle cx="100" cy="100" r="20" fill="red"/>
+    <circle cx="160" cy="100" r="20" fill="blue"/>
+    <circle cx="220" cy="100" r="20" fill="green"/>
+    <circle cx="280" cy="100" r="20" fill="red"/>
+    <circle cx="340" cy="100" r="20" fill="blue"/>
+    <circle cx="400" cy="100" r="20" fill="green"/>
+    <circle cx="460" cy="100" r="20" fill="red"/>
+    <circle cx="520" cy="100" r="20" fill="blue"/>
+    <circle cx="580" cy="100" r="20" fill="green"/>
+</svg>
