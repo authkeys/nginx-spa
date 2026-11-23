@@ -1,4 +1,4 @@
-FROM nginx:1.31.9-alpine3.24-slim
+FROM nginx:1.31.10-alpine3.24-slim
 RUN sed -i 's/^user .*/#user nginx;/; s/^pid .*/pid  \/var\/run\/nginx\/nginx.pid;/' /etc/nginx/nginx.conf \
     && mkdir /var/run/nginx \
     && chown 101 /var/cache/nginx /var/log/nginx /var/run/nginx
